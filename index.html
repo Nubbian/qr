@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.springframework.org/schema/mvc">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Ovipae | Home</title>
+</head>
+<body>
+<h1>Home</h1>
+<button id="myButton" class="float-left submit-button" >Read Qr</button>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam blanditiis dicta dolores eveniet expedita illum maiores mollitia nemo non nulla omnis quod quos recusandae suscipit tempore totam velit, vitae!</p>
+<img src="http://placehold.it/300x300/5fcf80/ffffff" alt="logo"/>
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "http://localhost:8080/qrcodereader";
+    };
+</script>
+</body>
+</html>
